@@ -5,7 +5,7 @@ module.exports = class Messenger{
         let nodemailer = require('nodemailer');
 
         let transporter = nodemailer.createTransport({
-            service: 'outlook',
+            service: '', // e.g gmail, outlook
             auth:{
                 user: '',
                 pass: ''
