@@ -2,11 +2,11 @@ let Messenger = require('./Messenger');
 
 let list = [];
 
-for(let i = 0; i < list.length; i++){
-    let send = new Messenger(list[i]);
+
+for(let i = 129; i < list.length; i++){
+    setTimeout(() =>{
+        new Messenger(list[i]);
+    }, 20000)
 }
-
-
-
 
 
