@@ -7,8 +7,8 @@ module.exports = class Messenger{
         let transporter = nodemailer.createTransport({
             service: 'outlook',
             auth:{
-                user: 'a0074560@wits.ac.za',
-                pass: 'wits.2022'
+                user: '',
+                pass: ''
             }
         });
         
