@@ -6,3 +6,6 @@ If all the mail are being sent to the same mail server e.g gmail, you can add th
 ### Nodemailer
 service takes in a string reprsenting your mail sever
 uath: user is your email address then pass takes in the password of the email you wanna use to send
+
+The body can be plan text or HTML...
+
